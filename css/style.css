@@ -1,0 +1,27 @@
+h1 {
+  color: black;
+}
+p {
+  background-color: blanchedalmond;
+}
+body {
+  background-color: green;
+}
+
+#title1 {
+  color: red;
+  background-color: black;
+}
+
+#title2 {
+  color: rgb(58, 43, 143);
+}
+
+#title3 {
+  color: greenyellow;
+}
+
+/* ưu tiên từ inline style đến style bên ngoài, 
+      trong stylehead thì ưu tiên child cao hơn parent
+      class và id thì ưu tiên id trước
+      */
