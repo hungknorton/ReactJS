@@ -5,8 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      ul li:first-of-type p {
+        color: red;
+      }
+
+      /* visited link */
+      a:visited {
+        color: #3719b0;
+      }
+
+      a:link {
+        color: #ff0000;
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: #ff00ff;
+      }
+
+      /* selected link */
+      a:active {
+        color: #0000ff;
+      }
+      a.highlight:hover {
+        color: #ff0000;
+        width: 100px;
+      }
+      p::first-letter {
+        color: red;
+        font-size: 30px;
+      }
+      #para {
+        width: 3072px;
+        height: 1920px;
+        background-color: black;
+      }
+    </style>
   </head>
   <body>
-    hello world 123
+    <ul>
+      <li><p>Hung</p></li>
+      <li><p>Nam</p></li>
+      <li><p>Tien</p></li>
+    </ul>
+    <a href="https://www.google.com">Click here</a>
+    <p id="para">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio magni iure
+      dolores, ab dolorem sapiente perferendis, suscipit temporibus a fugiat vel
+      fugit, aliquam ad saepe qui delectus! Optio, id deleniti.
+    </p>
   </body>
 </html>
