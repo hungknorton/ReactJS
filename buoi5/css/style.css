@@ -1,0 +1,96 @@
+body {
+  /* reset css */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: white;
+}
+
+.header {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.background_header {
+  width: 100%;
+}
+
+.main_top {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 425.48px;
+  height: 34px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.logo_center {
+  align-items: center;
+  display: flex;
+  width: 246px;
+  height: 78px;
+}
+
+.social_button {
+  display: flex;
+  width: 170.96px;
+  height: 40.99px;
+  right: 40px;
+  justify-content: space-between;
+}
+
+.main_title {
+  display: flex;
+  color: aliceblue;
+  padding: 10px 0px;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.main_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main_text_box {
+  width: 812px;
+  height: 303px;
+}
+
+.title_main {
+  font-size: 2.5rem;
+  height: 174px;
+}
+
+.button_try {
+  display: flex;
+  width: 236px;
+  height: 52px;
+  background: #2091f9;
+  border-radius: 35px;
+  align-items: center;
+  justify-content: center;
+}
